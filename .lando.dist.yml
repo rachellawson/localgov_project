@@ -73,22 +73,22 @@ services:
 tooling:
   deprecated:
     service: appserver
-    cmd: 'bash -c "/app/bin/phpstan analyse -c /app/phpstan.neon /app/web/profiles/contrib/localgov* /app/web/modules/contrib/localgov*  /app/web/themes/contrib/localgov*"'
+    cmd: 'bash -c "/app/vendor/bin/phpstan analyse -c /app/phpstan.neon /app/web/profiles/contrib/localgov* /app/web/modules/contrib/localgov*  /app/web/themes/contrib/localgov*"'
   drush:
     service: appserver
-    cmd: '/app/bin/drush'
+    cmd: '/app/vendor/bin/drush'
   phpcs:
     service: appserver
-    cmd: '/app/bin/phpcs -p'
+    cmd: '/app/vendor/bin/phpcs -p'
   phix:
     service: appserver
-    cmd: '/app/bin/phpcbf'
+    cmd: '/app/vendor/bin/phpcbf'
   phpstan:
     service: appserver
-    cmd: '/app/bin/phpstan'
+    cmd: '/app/vendor/bin/phpstan'
   phpunit:
     service: appserver
-    cmd: '/app/bin/phpunit --testdox'
+    cmd: '/app/vendor/bin/phpunit --testdox'
   xdebug-on:
     service: appserver
     description: Enable Xdebug for Apache.
