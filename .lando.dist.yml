@@ -12,6 +12,8 @@ proxy:
     - 'solr-sitewide.localgov.lndo.site:8983'
 services:
   appserver:
+    scanner:
+      retry: 5
     xdebug: true
     build_as_root:
       # This disables Xdebug during build, but puts all dependencies in place
@@ -71,6 +73,9 @@ services:
     config:
       dir: .lando/solr/localgov_sitewide_solr
 tooling:
+  composer:
+    service: appserver
+    cmd: /usr/local/bin/composer
   deprecated:
     service: appserver
     cmd: 'bash -c "/app/vendor/bin/phpstan analyse -c /app/phpstan.neon /app/web/profiles/contrib/localgov* /app/web/modules/contrib/localgov*  /app/web/themes/contrib/localgov*"'
