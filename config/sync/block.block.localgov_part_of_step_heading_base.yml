@@ -1,0 +1,22 @@
+uuid: 2b63710e-093b-42b0-93b2-c4e502460d1f
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - localgov_step_by_step
+  theme:
+    - localgov_base
+_core:
+  default_config_hash: FUVZEdI1b7hNzuYfaBTkXFsFsCS6POAoF4oVyH7VC3o
+id: localgov_part_of_step_heading_base
+theme: localgov_base
+region: content
+weight: -8
+provider: null
+plugin: step_part_of_block
+settings:
+  id: step_part_of_block
+  label: 'Part of step heading'
+  label_display: '0'
+  provider: localgov_step_by_step
+visibility: {  }

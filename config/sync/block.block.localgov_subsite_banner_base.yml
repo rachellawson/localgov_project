@@ -1,0 +1,24 @@
+uuid: 3fec1aa9-3d93-41a7-9462-4a774bda5e9a
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - localgov_subsites
+  theme:
+    - localgov_base
+_core:
+  default_config_hash: txdY2bNh5qTiCNwQJWy-qep__pxW_3jI20fGS0OdFSA
+id: localgov_subsite_banner_base
+theme: localgov_base
+region: banner
+weight: 0
+provider: null
+plugin: localgov_subsite_banner
+settings:
+  id: localgov_subsite_banner
+  label: 'Subsite banner'
+  label_display: '0'
+  provider: localgov_subsites
+  context_mapping:
+    node: '@node.node_route_context:node'
+visibility: {  }

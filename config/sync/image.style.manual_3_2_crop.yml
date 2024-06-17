@@ -1,0 +1,20 @@
+uuid: d4bbae12-72fc-434d-988f-6674d7e18ac1
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - crop.type.3_2
+  module:
+    - crop
+_core:
+  default_config_hash: LbgFtRjrKnZSgqqUtbJ_51Js_li0tvA7fuV6wfcvNAI
+name: manual_3_2_crop
+label: 'Manual 3:2 crop'
+effects:
+  bba16a8a-e7a8-45e1-ad7e-2402dcf4278f:
+    uuid: bba16a8a-e7a8-45e1-ad7e-2402dcf4278f
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: '3_2'
+      automatic_crop_provider: null

@@ -1,0 +1,21 @@
+uuid: b73ee021-b49c-442e-aa67-8fea4d3a9f63
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - link
+    - paragraphs
+_core:
+  default_config_hash: JS6rqq0KZqk0785RjI82tigsC2i_jbPyecPBPuovSuM
+id: paragraph.localgov_ia_block_links
+field_name: localgov_ia_block_links
+entity_type: paragraph
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

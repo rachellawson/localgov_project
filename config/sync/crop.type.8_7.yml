@@ -1,0 +1,14 @@
+uuid: dcab12bf-a727-4066-a341-3cf8f12ea367
+langcode: en-gb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: z4rshySxnH2HYoqF0OJcALkxFPqckbCHfplhl-U8ucA
+label: '8:7'
+id: '8_7'
+description: ''
+aspect_ratio: '8:7'
+soft_limit_width: null
+soft_limit_height: null
+hard_limit_width: null
+hard_limit_height: null

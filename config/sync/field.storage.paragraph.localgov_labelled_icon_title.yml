@@ -1,0 +1,23 @@
+uuid: ef85e820-f9e7-4731-96df-57b96751f243
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: vWGocrfiqg5JXlqlPMuzlj129zhtJ_eV3X12z5Q24u8
+id: paragraph.localgov_labelled_icon_title
+field_name: localgov_labelled_icon_title
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,28 @@
+uuid: ad7f506a-5baa-4e37-869b-0a5dc717a5ce
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.localgov_text.localgov_text
+    - paragraphs.paragraphs_type.localgov_text
+  module:
+    - text
+_core:
+  default_config_hash: itxOgrJx0otlPSFRNjJi5ZOHUxBNfu5D97ZHofFDpxU
+id: paragraph.localgov_text.default
+targetEntityType: paragraph
+bundle: localgov_text
+mode: default
+content:
+  localgov_text:
+    type: text_textarea
+    weight: 101
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

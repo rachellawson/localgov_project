@@ -1,0 +1,10 @@
+uuid: a64de12f-fce6-44e3-bf4a-2bb9f9711eaa
+langcode: en-gb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: eoviERfka0a6e2-xPlA1cApupVOCoIRlwzQEOOUD_NE
+name: 'Event neighbourhood'
+vid: localgov_event_locality
+description: 'Locality used for event filtering.'
+weight: 0

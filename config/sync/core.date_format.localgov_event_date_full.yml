@@ -1,0 +1,10 @@
+uuid: 7491b0d2-1f1d-4ab9-9274-4be741214b62
+langcode: en-gb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: UFvDTaBm8KIXaWg0gE35WVmYSSelr9E4zDNnIwDP6KE
+id: localgov_event_date_full
+label: 'Event date full'
+locked: false
+pattern: 'l j F Y, g.ia'

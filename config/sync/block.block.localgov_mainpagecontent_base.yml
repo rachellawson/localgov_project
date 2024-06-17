@@ -1,0 +1,22 @@
+uuid: dfbfc89f-b182-4c6a-be77-ab50a71b165a
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - localgov_base
+_core:
+  default_config_hash: VgtBm1j0LU86IPn9ao-3reh_a_ZRBcYoq1H7RL_dI4s
+id: localgov_mainpagecontent_base
+theme: localgov_base
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

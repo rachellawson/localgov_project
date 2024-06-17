@@ -1,0 +1,26 @@
+uuid: 51b61174-cf10-4a6c-8008-f928b466a818
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.localgov_step_by_step_page
+  module:
+    - text
+_core:
+  default_config_hash: '-hwmGA9QpX2SBKWeJJ8sk8YqbeEDGaQXhdzqvKsfMu0'
+id: node.localgov_step_by_step_page.body
+field_name: body
+entity_type: node
+bundle: localgov_step_by_step_page
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

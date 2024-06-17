@@ -1,0 +1,21 @@
+uuid: f1977cf1-85ca-4fa2-a25a-4961250e86ac
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - link
+    - paragraphs
+_core:
+  default_config_hash: LNym0Ho9HgG2sf1R1CnEK6ycco7LxjMYAQf6mlcj-IE
+id: paragraph.localgov_contact_other_url
+field_name: localgov_contact_other_url
+entity_type: paragraph
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,12 @@
+uuid: 4489ff29-3030-438d-a6e2-3310d96964e8
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - geocoder_geofield
+_core:
+  default_config_hash: Iz5RanuE22G7V_Dza-tRy6mZFBV6SU6_61pXPjMamQw
+id: kml_file
+label: 'KML File'
+plugin: kmlfile
+configuration: {  }
